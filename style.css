@@ -12,9 +12,11 @@
 body{
     font-family: 'Manrope', sans-serif;
     font-size: 1em;
+    background-color: #1f2039;
 }
 
 header, footer{
+    background-color: white;
     padding: 20px 50px;
 }
 
@@ -36,4 +38,45 @@ a{
 
 .lien-ft{
     margin-left: 30px;
+}
+
+section{
+    padding: 80px;
+}
+
+.prez{
+    max-width: 1000px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    margin: auto;
+}
+
+.prez h1, .prez p, .prez button{
+    margin-bottom: 15px;
+}
+
+h1{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 3.6em;
+    color: #a5b4fc;
+}
+
+.prez p{
+    color: white;
+    font-size: 1.1em;
+}
+
+.prez p span{
+    color:#a5b4fc;
+}
+
+.prez button{
+    display: inline-block;
+    background-color: #9b97cd;
+    color: white;
+    border-radius: 50px;
+    border-style: none;
+    padding: 20px 30px;
+    
 }
