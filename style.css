@@ -1,0 +1,39 @@
+@font-face {
+	font-family: 'Manrope';
+	src: url("fonts/Manrope-Regular.ttf") format("truetype");
+    font-family: 'Montserrat';
+	src: url("fonts/Montserrat-Regular.ttf") format("truetype");
+}
+
+*{
+    margin: 0px;
+}
+
+body{
+    font-family: 'Manrope', sans-serif;
+    font-size: 1em;
+}
+
+header, footer{
+    padding: 20px 50px;
+}
+
+footer, nav{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav a{
+    margin-left: 30px;
+}
+
+a{
+    text-decoration: none;
+    color: #242424;
+}
+
+.lien-ft{
+    margin-left: 30px;
+}
