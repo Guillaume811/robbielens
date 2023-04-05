@@ -97,6 +97,8 @@ h1{
     margin: 5px;
 }
 
+/* Page A PROPROS */
+
 .app{
     max-width: 1000px;
     display: flex;
@@ -113,11 +115,40 @@ h1{
     text-align: center;
 }
 
-.app div {
+.app .services {
     color: white;
     padding: 50px;
     border-width: 0 1px 1px 0;
     border-style: solid;
     border-color: #9b97cd;
+}
+
+.btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 50px;
+}
+
+.tarif h2{
+    color: white;
+    padding: 50px;
+    text-align: center
+}
+
+.tarif table{
+    color: white;
+    width: 100%;
+    text-align: center;
+    border-collapse: collapse;
+}
+
+th, td{
+    padding: 15px;
+    border: 1px solid #a5b4fc
+}
+
+td{
+    padding: 80px;
 }
 
